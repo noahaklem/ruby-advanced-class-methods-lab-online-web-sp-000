@@ -42,7 +42,7 @@ class Song
   end
   
   def self.new_from_filename(song_and_title)
-    song_and_title.each do |artist|
+    
     
   
 end
