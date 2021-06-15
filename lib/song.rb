@@ -46,7 +46,7 @@ class Song
     artist = seperate_artist_and_song[0]
     song_name = seperate_artist_and_song[1].chomp(".mp3")
     
-    song = self.create
+    song = self.new
     song.artist_name = artist
     song.name = song_name
     song
