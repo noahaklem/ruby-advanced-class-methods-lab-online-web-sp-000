@@ -38,8 +38,10 @@ class Song
   end
   
   def self.alphabetical
-    self.all.sort_by{|i| i.name}
+    self.all.sort_by{|songs_name| songs_name.name}
   end
   
+  def self.new_from_filename(songs_name)
+    self.create_by_name(songs_name)
   
 end
